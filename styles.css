@@ -104,24 +104,50 @@ a {
     font-weight: lighter;
     font-style: italic;
     margin-bottom: 0px;
-    width: 400px;
+    width: 500px;
 }
 
 #quote-owner {
     align-self: center;
-    margin-left: 100px;
+    margin-left: 250px;
+    font-weight: bold;
 }
 
 .call-to-action{
     display: flex;
     flex-direction: row;
+    background-color: #3882f6;
+    margin: 50px 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    width: 75%;
 }
 
-.details {
-    display: flex;
-    flex-direction: row;
+.call-to-action-text{
+    color: #f9faf8;
+    padding: 0px 50px;
 }
+
+#call-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    height: auto;
+    width: fit-content;  
+    display: flex;  
+    flex-wrap: nowrap;
+}
+
 .footer{
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
